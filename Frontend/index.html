@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CloudOps Solutions</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,Helvetica,sans-serif;
+}
+
+body{
+    background:#f5f7fb;
+    color:#333;
+}
+
+header{
+    background:#0f172a;
+    color:white;
+    padding:20px 8%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+header h1{
+    font-size:32px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:25px;
+    font-weight:bold;
+}
+
+.hero{
+    background:linear-gradient(135deg,#2563eb,#06b6d4);
+    color:white;
+    text-align:center;
+    padding:100px 20px;
+}
+
+.hero h2{
+    font-size:50px;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:20px;
+    margin-bottom:30px;
+}
+
+.hero button{
+    background:white;
+    color:#2563eb;
+    border:none;
+    padding:15px 35px;
+    font-size:18px;
+    border-radius:30px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.hero button:hover{
+    background:#0f172a;
+    color:white;
+}
+
+.services{
+    padding:70px 8%;
+}
+
+.services h2{
+    text-align:center;
+    margin-bottom:40px;
+    font-size:38px;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:30px;
+}
+
+.card{
+    background:white;
+    border-radius:12px;
+    padding:30px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card h3{
+    color:#2563eb;
+    margin-bottom:15px;
+}
+
+.about{
+    background:white;
+    padding:70px 8%;
+    text-align:center;
+}
+
+.about h2{
+    margin-bottom:20px;
+}
+
+.about p{
+    max-width:800px;
+    margin:auto;
+    line-height:1.8;
+}
+
+.contact{
+    padding:70px 8%;
+}
+
+.contact h2{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+form{
+    max-width:600px;
+    margin:auto;
+}
+
+input,textarea{
+    width:100%;
+    padding:15px;
+    margin:10px 0;
+    border:1px solid #ccc;
+    border-radius:8px;
+}
+
+button.submit{
+    width:100%;
+    background:#2563eb;
+    color:white;
+    padding:15px;
+    border:none;
+    border-radius:8px;
+    font-size:18px;
+    cursor:pointer;
+}
+
+footer{
+    background:#0f172a;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>CloudOps Solutions</h1>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">Services</a>
+<a href="#">About</a>
+<a href="#">Contact</a>
+</nav>
+</header>
+
+<section class="hero">
+
+<h2>Cloud & DevOps Services</h2>
+
+<p>
+Deploy Faster. Scale Smarter. Secure Everything.
+</p>
+
+<button>Get Started</button>
+
+</section>
+
+<section class="services">
+
+<h2>Our Services</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>☁ Cloud Infrastructure</h3>
+<p>
+Design and deploy highly available AWS and Azure cloud environments.
+</p>
+</div>
+
+<div class="card">
+<h3>🐳 Docker</h3>
+<p>
+Containerize applications using Docker and Docker Compose.
+</p>
+</div>
+
+<div class="card">
+<h3>☸ Kubernetes</h3>
+<p>
+Deploy scalable containerized applications using Kubernetes.
+</p>
+</div>
+
+<div class="card">
+<h3>🚀 CI/CD</h3>
+<p>
+Automate deployments using GitHub Actions and Jenkins.
+</p>
+</div>
+
+<div class="card">
+<h3>🔐 DevSecOps</h3>
+<p>
+Integrate security scanning into every stage of the deployment pipeline.
+</p>
+</div>
+
+<div class="card">
+<h3>📊 Monitoring</h3>
+<p>
+Monitor infrastructure using Prometheus and Grafana dashboards.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="about">
+
+<h2>About Us</h2>
+
+<p>
+CloudOps Solutions helps organizations modernize applications using
+Docker, Kubernetes, Terraform, AWS, Azure, and CI/CD automation.
+Our mission is to build reliable, scalable, and secure cloud platforms
+that accelerate software delivery.
+</p>
+
+</section>
+
+<section class="contact">
+
+<h2>Contact Us</h2>
+
+<form>
+
+<input type="text" placeholder="Your Name">
+
+<input type="email" placeholder="Email Address">
+
+<textarea rows="6" placeholder="Message"></textarea>
+
+<button class="submit">
+Send Message
+</button>
+
+</form>
+
+</section>
+
+<footer>
+
+<h3>CloudOps Solutions © 2026</h3>
+
+<p>Docker | Kubernetes | AWS | Azure | Terraform | DevOps</p>
+
+</footer>
+
+</body>
+</html>
